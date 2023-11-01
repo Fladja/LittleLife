@@ -889,6 +889,7 @@ section {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 20px;
+  font-family: var(--font-secondary);
 }
 
 .call-to-action p {
@@ -1951,17 +1952,18 @@ section {
   padding: 60px 0 0 0;
 }
 
-/* hero especial das páginas de doenças - ----------INÍCIO ----------------*/
-#hero-new-img {
+/* hero especial das páginas de bacterioses- ----------INÍCIO ----------------*/
+#hero-new-img-bac{
   width: 100%;
   height: 100vh;
   background: top center;
   background-size: cover;
   position: relative;
   padding: 0;
+  background-image: url(../img/bacterias.jpg);
 }
 
-#hero-new-img:before {
+#hero-new-img-bac:before {
   content: "";
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -1971,7 +1973,34 @@ section {
   right: 0;
 }
 
-#hero-new-img .container {
+#hero-new-img-bac .container {
+  padding-top: 180px;
+}
+
+/* ----------- FIM --------------------- */
+
+/* hero especial das páginas de viroses ----------INÍCIO ----------------*/
+#hero-new-img-vir{
+  width: 100%;
+  height: 100vh;
+  background: top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+  background-image: url(../img/virus.png);
+}
+
+#hero-new-img-vir:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero-new-img-vir .container {
   padding-top: 180px;
 }
 
