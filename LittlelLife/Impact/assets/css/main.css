@@ -741,8 +741,8 @@ section {
 ------------------------------*/
 .call-to-action {
   --color-default: #ffffff;
-  --color-background: #948a8a;
-  --color-background-rgb: 10, 10, 10;
+  --color-background: #223A66; 
+  /* --color-background-rgb: 10, 10, 10; */
   padding: 80px 0;
   position: relative;
   -webkit-clip-path: inset(0);
@@ -772,6 +772,7 @@ section {
 .call-to-action .container {
   position: relative;
   z-index: 3;
+ 
 }
 
 .call-to-action h3 {
@@ -1477,7 +1478,7 @@ section {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .team .member .social a {
